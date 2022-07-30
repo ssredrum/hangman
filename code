@@ -21,7 +21,7 @@ while turns > 0:      # while turns are greater than zero
     if guess not in word:  # if guees is not like word
         turns -= 1        # one tries is taken away
         print("\nWrong")    # print it
-        print("\nYou have", + turns, 'more guesses') @ print how much turns yo have
+        print("\nYou have", + turns, 'more guesses') # print how much turns yo have
         if turns == 0:      # When yur turns = 0, and you didn't win     
             print ("\nYou Lose") # print it
 
